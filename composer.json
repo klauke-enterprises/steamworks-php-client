@@ -14,7 +14,14 @@
             "email": "felix@klauke-enterprises.com"
         }
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/klauke-enterprises/steamworks-php-client"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/klauke-enterprises"
+    },
     "require": {
-        "guzzlehttp/guzzle": ">=v3.9.2"
+        "guzzlehttp/guzzle": "^7.4"
     }
 }
